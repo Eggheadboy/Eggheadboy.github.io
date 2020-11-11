@@ -8,7 +8,7 @@ header {
     width:60%;
     margin: 0 auto;
     text-align: center;
-    padding:20px;
+    padding:20px 0px 20px 0px;
 }
 @media (max-width:600px){
     header {
@@ -43,12 +43,12 @@ header {
     position: relative;
 }
 @media (max-width:800px) {
-    #alt {
+    #alt1 {
         font-size:1.2rem;
     }
 }
 @media (max-width:600px) {
-    #alt {
+    #alt1 {
         width:80%;
     }
 }
