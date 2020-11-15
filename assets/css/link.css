@@ -9,36 +9,36 @@ body {
 }
 
 header {
-    width:60%;
+    width:100%;
     margin: 0 auto;
     text-align: center;
     padding:20px 0px 20px 0px;
     color:white;
 }
-@media (max-width:600px){
+@media (min-width:600px){
     header {
-        width:100%
+        width:60%
     }
 }
 
 #main {
     background-color: white;
-    width:60%;
-    margin: 0 auto;
+    width:100%;
+    margin: 0 0;
     padding:40px 0px 20px 0px;
-    border-radius: 5px ;
+    border-radius: 0px ;
 }
-@media (max-width:600px) {
+@media (min-width:600px) {
     #main {
-        width:100%;
-        margin: 0 0;
-        border-radius: 0px ;
+        width:60%;
+        margin: 0 auto;
+        border-radius: 5px ;
     }
 }
 #alt1 {
     height:50px;
     line-height:50px;
-    width:60%;
+    width:80%;
     margin: 0 auto;
     border-radius:5px;
     margin-bottom:20px;
@@ -47,14 +47,15 @@ header {
     border: 0px;
     position: relative;
 }
-@media (max-width:800px) {
+@media (min-width:600px) {
     #alt1 {
+        width:60%;
         font-size:1.2rem;
     }
 }
-@media (max-width:600px) {
+@media (min-width:800px) {
     #alt1 {
-        width:80%;
+        font-size:1.4rem;
     }
 }
 #main .facebook {
